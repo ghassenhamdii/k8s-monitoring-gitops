@@ -1,6 +1,9 @@
 grafana:
   enabled: true
 
+  adminUser: admin
+  adminPassword: "GrafanaLab123!"
+
 prometheus:
   enabled: true
 
