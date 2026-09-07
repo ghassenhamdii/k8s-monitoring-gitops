@@ -23,6 +23,10 @@ spec:
       targetRevision: main
       ref: values
 
+    - repoURL: https://github.com/ghassenhamdii/k8s-monitoring-gitops.git
+      targetRevision: main
+      path: manifests
+
   syncPolicy:
     automated:
       prune: true
